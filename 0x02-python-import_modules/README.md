@@ -29,7 +29,7 @@ To get started with this project, follow the instructions below:
 
 ## Tasks
 
-- [Task 0: Import a simple function from a simple file](./0-import_add.py)
+- [Task 0: Import a simple function from a simple file](./0-add.py)
 - [Task 1: My first toolbox!](./1-calculation.py)
 - [Task 2: How to make a script dynamic!](./2-args.py)
 - [Task 3: Infinite addition](./3-infinite_add.py)
