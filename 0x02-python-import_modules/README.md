@@ -69,7 +69,7 @@ Plagiarism is strictly forbidden. You are required to come up with solutions for
 
 ## Author
 
-- Your Name
+- Wajdi khelifi
 - GitHub: [wajdi khelifi](https://github.com/wajdi-khelifi)
 
 
