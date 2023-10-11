@@ -2,4 +2,5 @@
 def search_replace(my_list, search, replace):
     for i in my_list:
         if i == search:
-            my_list[i] = replace
+            new_list = my_list.remove(i)
+            new_list = my_list.insert(replace)
