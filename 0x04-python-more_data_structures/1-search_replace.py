@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 def search_replace(my_list, search, replace):
-    for i in range my_list:
-        new_list = my_list.insert(replace, search)
-    return new_list
+    for i in my_list:
+        if i == search:
+            my_list[i] = replace
