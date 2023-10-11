@@ -16,5 +16,5 @@ def roman_to_int(roman_string):
         for j in range(len(dec)):
             final += dec[j]
             if dec[j - 1] < dec[j] and j != 0:
-                final -= (dec[j -1] + dec[j - 1])
+                final -= (dec[j - 1] + dec[j - 1])
         return final
