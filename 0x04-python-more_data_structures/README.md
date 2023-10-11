@@ -2,14 +2,14 @@
 
 This project is a collection of Python tasks designed to help you learn more about data structures, sets, dictionaries, and other concepts in Python. Each task has specific learning objectives and requirements to fulfill.
 
-#Table of Contents
+# Table of Contents
 
 - Project Information
 - Learning Objectives
 - Requirements
 - Tasks
 
-#Tasks
+# Tasks
 
 - [Task 0: Squared Simple](./0-square_matrix_simple.py)
 - [Task 1: Search and Replace](./1-search_replace.py)
@@ -29,16 +29,16 @@ This project is a collection of Python tasks designed to help you learn more abo
 - [Task 15: Delete by Value](./102-complex_delete.py)
 - [Task 16: CPython #1: PyBytesObject](./103-python.c)
 
-#Project Information
+# Project Information
 - Author: Guillaume
 - Weight: 1
 - Project Start Date: Oct 11, 2023, 5:00 AM
 - Project End Date: Oct 12, 2023, 5:00 AM
 - Checker Released: Oct 11, 2023, 11:00 AM
 - Auto Review Will Be Launched at the Deadline
-#Learning Objectives
+# Learning Objectives
 By the end of this project, you are expected to be able to explain to anyone, without the help of Google:
- - General
+ #General
 
 - Why Python programming is awesome
 - What are sets and how to use them
@@ -52,8 +52,8 @@ By the end of this project, you are expected to be able to explain to anyone, wi
 - What is a lambda function
 - What are the map, reduce, and filter functions
 
-#Requirements
- - General
+# Requirements
+ #General
 
 - Allowed editors: vi, vim, emacs
 - All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
@@ -64,6 +64,6 @@ By the end of this project, you are expected to be able to explain to anyone, wi
 - All your files must be executable
 - The length of your files will be tested using wc
 
-#Author
+# Author
 - Wajdi khelifi
 - GitHub: [wajdi khelifi](https://github.com/wajdi-khelifi)
