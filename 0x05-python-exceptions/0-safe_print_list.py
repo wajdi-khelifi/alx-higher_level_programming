@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
     a = 0
-    for b in range(x):
+    for b in range(0, x):
         try:
-            print("{}".foramt(my_list[b]))
+            print("{}".foramt(my_list[b]), end="")
             a += 1
         except IndexError:
             break
