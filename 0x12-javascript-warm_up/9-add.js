@@ -8,4 +8,4 @@ function Add(a, b) {
 	  return (parseInt(a) + parseInt(b));
   }
 }
-  console.log(Add(a, b));
+console.log(Add(a, b));
