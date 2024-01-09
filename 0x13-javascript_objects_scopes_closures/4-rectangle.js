@@ -1,3 +1,4 @@
+#!/usr/bin/node
 class Rectangle {
   constructor (w, h) {
     if ((w > 0) && (h > 0)) {
@@ -5,6 +6,7 @@ class Rectangle {
       this.height = h;
     }
   }
+
   print () {
     for (let i = 0; i < this.height; i++) {
       let r = '';
@@ -14,16 +16,17 @@ class Rectangle {
       console.log(r);
     }
   }
+
   rotate () {
-    const tmp = this.height;
-    this.height = this.width;
-    this.width = tmp;
+    const tmp = this.width;
+    this.width = this.height;
+    this.height = tmp;
   }
+
   double () {
-    this.height *= 2;
     this.width *= 2;
+    this.height *= 2;
   }
 }
-module.exports = Rectangle; /*This is a special object in Node.
-js modules that is used to expose functionality from one module to another.
-Anything assigned to module.exports will be available for other modules to import.*/
+
+module.exports = Rectangle;
