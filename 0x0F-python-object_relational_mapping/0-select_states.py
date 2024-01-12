@@ -9,10 +9,10 @@ if __name__ == '__main':
                                 host='localhost',
                                 port=3306)
     cursor = data_base.cursor()
-  cursor.excute("SETECT * FROM states ORDER BY id ASC")
-  data = cursor.fetchall()
+    cursor.excute("SETECT * FROM states ORDER BY id ASC")
+    data = cursor.fetchall()
 
-  for row in data:
-      print(row)
-  cursor.close()
-  data_base.close()
+    for row in data:
+        print(row)
+    cursor.close()
+    data_base.close()
