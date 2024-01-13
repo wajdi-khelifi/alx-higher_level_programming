@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Script to list states from the database hbtn_0e_0_usa"""
 import MySQLdb
-from sys import argv
+import sys
 
 if __name__ == '__main':
     """execution"""
