@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
     A script that prints all City objects from the database hbtn_0e_14_usa
-    Username, password and dbname wil be passed as arguments to the script.
+    Username, password and dbname wil be passed as arguments to the script
 """
 
 
@@ -24,7 +24,6 @@ if __name__ == '__main__':
 
     cities = session.query(State, City) \
                     .filter(State.id == City.state_id)
-
 
     for ci in cities:
         print("{}: ({}) {}".format(ci.State.name, ci.City.id, ci.City.name))
