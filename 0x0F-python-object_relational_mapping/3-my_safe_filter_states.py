@@ -18,7 +18,7 @@ if __name__ == "--main__":
     query = """
     SELECT * FROM states WHERE name = %s ORDER BY id ASC
     """
-    cursor.execute(query, (sys.argv[4]))
+    cursor.execute(query, (sys.argv[4],))
 
     rows = cursor.fetchall()
 
