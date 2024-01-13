@@ -20,7 +20,7 @@ if __name__ == "__main__":
     """.format(sys.argv[4])
     cursor.execute(query)
 
-    rows.fetchall()
+    rows = cursor.fetchall()
 
     for row in rows:
         print(row)
